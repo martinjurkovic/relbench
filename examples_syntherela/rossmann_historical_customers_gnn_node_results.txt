@@ -1,0 +1,5 @@
+Loading Database object from /Users/martinjurkovic/Library/Caches/relbench/rel-rossmann/db...
+Done in 0.02 seconds.
+Epoch: 01, Train loss: 331.48056662434163, Val metrics: {'r2': 0.15130388736724854, 'mae': 276.8268066009548, 'rmse': 424.6913452267132}
+Best Val metrics: {'r2': 0.15130388736724854, 'mae': 276.8268066009548, 'rmse': 424.6913452267132}
+Best test metrics: {'r2': 0.14725714921951294, 'mae': 275.8984784285152, 'rmse': 422.38579253448364}
