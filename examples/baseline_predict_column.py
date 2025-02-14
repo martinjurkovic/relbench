@@ -11,15 +11,6 @@ from relbench.base import Dataset, Table, TaskType, PredictColumnTask
 from relbench.datasets import get_dataset
 
 parser = argparse.ArgumentParser()
-# parser.add_argument("--dataset", type=str, default="rel-f1")
-# parser.add_argument("--task", type=str, default="predict-column")
-
-# parser.add_argument("--task_type", type=str, default="REGRESSION", choices=["BINARY_CLASSIFICATION", "REGRESSION", "MULTILABEL_CLASSIFICATION"])
-# parser.add_argument("--entity_table", type=str, default="results")
-# parser.add_argument("--entity_col", type=str, default="resultId")
-# parser.add_argument("--time_col", type=str, default="date")
-# parser.add_argument("--target_col", type=str, default="position")
-
 parser.add_argument("--dataset", type=str, default="rel-hm")
 parser.add_argument("--task", type=str, default="predict-column")
 
